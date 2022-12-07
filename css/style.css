@@ -130,6 +130,17 @@ body {
     display: none;
 }
 
+.card {
+    background-color: rgba(148, 147, 147, 0.2);  ;
+    font-size: medium;
+}
+
+.form-group {
+    width: auto;
+    font-size: medium;
+    text-align: start;
+}
+
 nav,
 scroll-container {
     overflow: auto;
@@ -151,17 +162,12 @@ scroll-page {
     height: 100%;
     font-size: 5em;
 }
-
-.card {
-    background-color: rgba(148, 147, 147, 0.2);  ;
-    font-size: medium;
-}
-form {
-    width: 80%;
-    
-}
-.form-group {
-    width: auto;
-font-size: medium;
-text-align: start;
+@media only screen and (max-width: 500px) {
+    scroll-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 160%;
+        font-size: 5em;
+    }
 }
