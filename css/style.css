@@ -162,7 +162,7 @@ scroll-page {
     height: 100%;
     font-size: 5em;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
     scroll-page {
         display: flex;
         align-items: center;
